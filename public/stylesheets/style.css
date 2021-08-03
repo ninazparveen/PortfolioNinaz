@@ -119,3 +119,9 @@ i.bx {
   padding-top: 15px;
   height: 1255px;
 }
+
+.img-tech {
+  height: auto;
+  width: 133% !important;
+  padding-top: 36px;
+}

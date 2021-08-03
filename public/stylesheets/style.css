@@ -1,0 +1,121 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+footer {
+  position: fixed;
+  left: 31px;
+  bottom: 0;
+  width: 95%;
+  background-color: #073642;
+  color: #2aa198;
+  text-align: center;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
+}
+
+i.bx {
+  font-size: 24px;
+  color: #18d26e;
+  border-radius: 50%;
+  padding: 14px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+}
+.info-box {
+  color: rgba(255, 255, 255, 0.55);
+  padding: 20px;
+  width: 100%;
+}
+.contactP {
+  margin-left: 60px !important;
+}
+
+.contactH3 {
+  margin-left: 60px !important;
+}
+
+.aboutMeUL {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.skills .progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #18d26e;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0d6efd;
+  transition: width 0.6s ease;
+}
+
+.containerDiv {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+.indexH2 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+.indexH1 {
+  padding-top: 24px;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+.projectContainer {
+  margin-right: 0px;
+  height: 672px;
+  padding-top: 15px;
+  height: 1255px;
+}
